@@ -1,0 +1,26 @@
+{
+  "name": "careless-loader",
+  "version": "0.0.2",
+  "description": "A loader for careless syntax",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "careless": "^0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "test": "cd test && webpack && node test-bundle.js"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "careless"
+  ],
+  "author": "NicholasDeis",
+  "license": "MIT"
+}
